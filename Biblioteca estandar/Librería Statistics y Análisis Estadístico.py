@@ -11,7 +11,7 @@ with open('monthly_sales.csv', mode='r') as file:
         monthly_sales[month] = sales
 
 sales = list(monthly_sales.values())
-#print(sales)
+print(sales)
 
 #Hallar la media
 mean_sales = statistics.mean(sales)
